@@ -8,10 +8,10 @@
 
 }
 :root {
-    --bg-color: #f3f2f5;
-    --second-bg-color: #d2bce3;
-    --text-color: black;
-    --main-color: #e82038;
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+    --text-color: white;
+    --main-color: #ea580c;
 }
 
 html {
@@ -59,8 +59,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #0d3542 10%,
-        #40147d 100%
+        #c2ad8c 10%,
+        #ed670e 100%
     );
     background-clip: text;
     color: transparent;
@@ -85,8 +85,8 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #0d3542 10%,
-        #40147d 100%
+        #c2ad8c 10%,
+        #ed670e 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
@@ -97,6 +97,9 @@ span{
 }
 .gradient-btn:hover {
     transform: scale(1.05);
+}
+#contact-btn{
+    color:white;
 }
 
 section{
@@ -259,7 +262,6 @@ section{
     background-color: var(--main-color);
     height: 600px;
     border-radius: 3rem;
-    cursor: pointer;
     border: 5px solid transparent;
     transition: 0.4s ease-in-out;
 }
@@ -304,7 +306,8 @@ section{
 .project-card{
     display: flex;
     flex-direction: column;
-    align-items: center;text-align: center;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     text-align: center;
     background-color: var(--bg-color);
