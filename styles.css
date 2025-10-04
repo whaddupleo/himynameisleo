@@ -294,7 +294,7 @@ section{
     font-size: 8rem;
 }
 .projects{
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 .projects-box{
     display: grid;
@@ -337,7 +337,7 @@ section{
 font-size: 1.6rem;
 }
 .contact{
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
 }
 
 .contact h2{
@@ -365,7 +365,7 @@ font-size: 1.6rem;
     resize: none;
 }
 .footer{
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     padding: 50px 0;
 }
 .footer .social-icons{
